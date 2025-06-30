@@ -43,7 +43,7 @@ The code in sections 4 and 5 both generate datafiles that are then given to Int2
 
 STUB ABOUT SECTION 4
 
-In [Code/Section 5/5.2/generate_mod2data_no_duplicates.ipynb](/Code/Section%205/5.2/generate_mod2data_no_duplicates.ipynb), there is simple code that creates datafiles for mod $2$ data for Int2Int.
+In [Code/Section 5/5.2/generate_mod2data_no_duplicates.ipynb](/Code/Section%205/5.2/generate_mod2data_no_duplicates.ipynb), there is simple code that creates datafiles for mod $2$ data for Int2Int, as well as terminal commands to train and load the models described in Section 5.2.
 
 STUB ON HOW TO USE INT2INT ON THIS DATA
 
