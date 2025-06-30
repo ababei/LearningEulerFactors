@@ -65,5 +65,4 @@ This repository is not accepting contributions. But the authors are going to con
 
 ## License ##
 
-The code here is made available under the MIT License.
-Int2Int is pinned and also made available under MIT, but see that code for more concrete details.
+The code here is made available under the MIT License. See the [LICENSE file](/LICENSE) for more.
