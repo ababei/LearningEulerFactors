@@ -64,7 +64,7 @@ by Edgar Costa; this is a subset of the isogeny classes of curves in ECQ8, but w
     up to 10^6 [Data set].
     Zenodo. https://doi.org/10.5281/zenodo.15777475
 
-The paper also uses the set ECQ7, the subset of isogeny classes of curves in ECQ8 along with $\{ a_p(E) \}_{p < 100}$, but this is inconveniently large to share. To recreate this dataset, take isogeny classes from ECQ8 and compute coefficients $a_p(E)$. Verify against the set ECQ6. Note that since we only use small primes, this computation is straightforward.
+The paper also uses the set ECQ7, the subset of isogeny classes of curves in ECQ8 along with $(a_p(E))_{p < 100}$, but this is inconveniently large to share. To recreate this dataset, take isogeny classes from ECQ8 and compute coefficients $a_p(E)$. Verify against the set ECQ6. Note that since we only use small primes, this computation is straightforward.
 
 Both ECQ6 and ECQ8 are availably under CC-BY-4.0. See their DOI pages for complete licensing information.
 
