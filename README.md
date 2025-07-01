@@ -50,18 +50,18 @@ The code in [Code/Section 6](https://github.com/ababei/LearningEulerFactors/tree
 
 ## Data ##
 
-The underlying data for this comes from ECQ8, [A set of isogeny classes of elliptic curves of conductor up to 10^8](https://zenodo.org/records/14847809) by Drew Sutherland. The set ECQ6 is at[Frobenious traces for a set of isogeny classes of elliptic curves of conductor up to 10^6](https://zenodo.org/records/15777475)
+The underlying data for this comes from ECQ8, [A set of isogeny classes of elliptic curves of conductor up to 10^8](https://zenodo.org/records/14847809) by Drew Sutherland. The set ECQ6 is at [Frobenious traces for a set of isogeny classes of elliptic curves of conductor up to 10^6](https://zenodo.org/records/15777475)
 by Edgar Costa; this is a subset of the isogeny classes of curves in ECQ8, but with $a_p(E)$ for primes $p < 100$ computed and stored.
 
-    ECQ8
+    [ECQ8]
     Sutherland, A. V. (2024). A set of isogeny classes of
     elliptic curves of conductor up to 10^8.
-    [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14847809
+    Zenodo. https://doi.org/10.5281/zenodo.14847809
 
-    ECQ6
+    [ECQ6]
     Costa, E. (2025). Frobenious traces for a set of
     isogeny classes of elliptic curves of conductor 
-    up to 10^6 [Data set].
+    up to 10^6.
     Zenodo. https://doi.org/10.5281/zenodo.15777475
 
 The paper also uses the set ECQ7, the subset of isogeny classes of curves in ECQ8 along with $(a_p(E))_{p < 100}$, but this is inconveniently large to share. To recreate this dataset, take isogeny classes from ECQ8 and compute coefficients $a_p(E)$. Verify against the set ECQ6. Note that since we only use small primes, this computation is straightforward.
