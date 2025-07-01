@@ -43,16 +43,30 @@ The code in sections 4 and 5 both generate datafiles that are then given to Int2
 
 STUB ABOUT SECTION 4
 
-In [Code/Section 5/5.2/generate_mod2data_no_duplicates.ipynb](/Code/Section%205/5.2/generate_mod2data_no_duplicates.ipynb), there is simple code that creates datafiles for mod $2$ data for Int2Int, as well as terminal commands to train and load the models described in Section 5.2.
-
-STUB ON HOW TO USE INT2INT ON THIS DATA
+In [Code/Section 5/5.2/generate_mod2data_no_duplicates.ipynb](/Code/Section%205/5.2/generate_mod2data_no_duplicates.ipynb), there is simple code that creates datafiles for mod $2$ data for Int2Int, as well as terminal commands for Int2Int to train and load the models described in Section 5.2.
 
 The code in [Code/Section 6](https://github.com/ababei/LearningEulerFactors/tree/main/Code/Section%206/) is more involved, as it contains two different neural network implementations and experiments. This code is self-contained. The jupyter notebook for [Section 6.1](https://github.com/ababei/LearningEulerFactors/blob/main/Code/Section%206/6.1/nn_exp_and_saliency.ipynb) is a complete record of an interactive session generating the data for section 6.1 of the paper.
 
 
 ## Data ##
 
-LINK TO ZENODO DATA
+The underlying data for this comes from ECQ8, [A set of isogeny classes of elliptic curves of conductor up to 10^8](https://zenodo.org/records/14847809) by Drew Sutherland. The set ECQ6 is at[Frobenious traces for a set of isogeny classes of elliptic curves of conductor up to 10^6](https://zenodo.org/records/15777475)
+by Edgar Costa; this is a subset of the isogeny classes of curves in ECQ8, but with $a_p(E)$ for primes $p < 100$ computed and stored.
+
+    ECQ8
+    Sutherland, A. V. (2024). A set of isogeny classes of
+    elliptic curves of conductor up to 10^8.
+    [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14847809
+
+    ECQ6
+    Costa, E. (2025). Frobenious traces for a set of
+    isogeny classes of elliptic curves of conductor 
+    up to 10^6 [Data set].
+    Zenodo. https://doi.org/10.5281/zenodo.15777475
+
+The paper also uses the set ECQ7, the subset of isogeny classes of curves in ECQ8 along with $\{ a_p(E) \}_{p < 100}$, but this is inconveniently large to share. To recreate this dataset, take isogeny classes from ECQ8 and compute coefficients $a_p(E)$. Verify against the set ECQ6. Note that since we only use small primes, this computation is straightforward.
+
+Both ECQ6 and ECQ8 are availably under CC-BY-4.0. See their DOI pages for complete licensing information.
 
 
 ## Comments ##
