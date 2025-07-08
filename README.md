@@ -51,7 +51,7 @@ The code in [Code/Section 6](https://github.com/ababei/LearningEulerFactors/tree
 ## Data ##
 
 The underlying data for this comes from ECQ8, [A set of isogeny classes of elliptic curves of conductor up to 10^8](https://zenodo.org/records/14847809) by Drew Sutherland. The set ECQ6 is at [Frobenious traces for a set of isogeny classes of elliptic curves of conductor up to 10^6](https://zenodo.org/records/15777475)
-by Edgar Costa; this is a subset of the isogeny classes of curves in ECQ8, but with $a_p(E)$ for primes $p < 1000$ computed and stored. A smaller data file ECQ6small of curves with conductor up to $10^6$ containing only the Frobenius traces $a_p(E)$ for primes $p < 100$, the conductor $N(E)$ and the rank $r(E)$ is available at  [Frobenius traces of small primes for a subset of isogeny classes of elliptic curves of conductor up to 10^6](https://zenodo.org/records/15832317).
+by Edgar Costa; this is a subset of the isogeny classes of curves in ECQ8, but with $a_p(E)$ for primes $p < 1000$ computed and stored. A smaller data file ECQ6small of curves with conductor up to $10^6$ containing only the Frobenius traces $a_p(E)$ for primes $p < 100$, the conductor $N(E)$ and the rank $r(E)$ is available at [Frobenius traces of small primes for a subset of isogeny classes of elliptic curves of conductor up to 10^6](https://zenodo.org/records/15832317).
 
     [ECQ8]
     Sutherland, A. V. (2024). A set of isogeny classes of
@@ -67,7 +67,7 @@ by Edgar Costa; this is a subset of the isogeny classes of curves in ECQ8, but w
     [ECQ6small]
     Babei, A. (2025). Frobenius traces of small primes 
     for a subset of isogeny classes of elliptic curves 
-    of conductor up to 10^6
+    of conductor up to 10^6.
     Zenodo. https://doi.org/10.5281/zenodo.15832317
 
 The paper also uses the set ECQ7, the subset of isogeny classes of curves in ECQ8 along with $(a_p(E))_{p < 100}$, but this is inconveniently large to share. To recreate this dataset, take isogeny classes from ECQ8 and compute coefficients $a_p(E)$. Verify against the set ECQ6. Note that since we only use small primes, this computation is straightforward.
