@@ -41,11 +41,11 @@ Note that small numbers of GPUs were used to generate the data for the paper, bu
 The code is separated into three parts, according to the relevant section of the paper.
 The code in sections 4 and 5 both generate datafiles that are then given to Int2Int.
 
-In [Code/Section 4/generate_ap_data.ipynb](/Code/Section%204/generate_ap_data.ipynb), there is code that creates datafiles for predicting $a_p$ for Int2Int. 
+In [Code/Section 4/generate_ap_data.ipynb](/Code/Section%204/generate_ap_data.ipynb), there is code that creates datafiles for predicting $a_p$ with Int2Int. 
 
 In [Code/Section 4/train_and_load_predicting_ap_models.ipynb](/Code/Section%204/generate_ap_data.ipynb) there are terminal commands for Int2Int to train and load the models described in Section 4, and the encoder-decoder models described in Section 7. The trained models are available at [Trained transformer models for predicting traces of Frobenius of elliptic curves with conductor up to 10^6](https://zenodo.org/records/15849326).
 
-In [Code/Section 5/5.2/generate_mod2data_no_duplicates.ipynb](/Code/Section%205/5.2/generate_mod2data_no_duplicates.ipynb), there is simple code that creates datafiles for mod $2$ data for Int2Int.
+In [Code/Section 5/5.2/generate_mod2data_no_duplicates.ipynb](/Code/Section%205/5.2/generate_mod2data_no_duplicates.ipynb), there is simple code that creates datafiles for mod $2$ data with Int2Int.
 
 In [Code/Section 5/5.2/train_and_load_mod2_no_duplicates_models.ipynb](/Code/Section%205/5.2/train_and_load_mod2_no_duplicates_models.ipynb) there are terminal commands for Int2Int to train and load the models described in Section 5.2.  The trained models are available at [Trained transformer models for predicting traces of Frobenius mod 2 of elliptic curves with conductor up to 10^7](https://zenodo.org/records/15839197).
 
